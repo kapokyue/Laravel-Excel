@@ -57,7 +57,7 @@ class ExcelServiceProvider extends ServiceProvider {
 
         //Set the autosizing settings
         $this->setAutoSizingSettings();
-        
+
         //Enable an "export" method on Eloquent collections. ie: model::all()->export('file');
 	    if (method_exists(Collection::class, 'macro')) {
             Collection::macro('export', function($filename, $type = 'xlsx', $method = 'download') {

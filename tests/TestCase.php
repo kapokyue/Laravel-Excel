@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Orchestra\Testbench\TestCase as TestBenchTestCase;
 
 class TestCase extends TestBenchTestCase

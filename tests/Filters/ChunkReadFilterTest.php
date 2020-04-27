@@ -5,7 +5,7 @@ use Mockery as m;
 class ChunkReadFilterTest extends TestCase
 {
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->excel = app('excel');

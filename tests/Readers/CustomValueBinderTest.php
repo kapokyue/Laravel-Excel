@@ -1,11 +1,13 @@
 <?php
 
+use Illuminate\Support\Facades\App;
+
 class CustomValuBinderTest extends TestCase {
 
     /**
      * Setup
      */
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -28,7 +30,7 @@ class CustomValuBinderTest extends TestCase {
     /**
      * Tear down
      */
-    public function tearDown()
+    protected function tearDown(): void
     {
         // Necessary to reset the value binder back to default so that future test classes are unaffected.
         $this->reader->resetValueBinder();

@@ -6,12 +6,12 @@ use Mockery as m;
 class LumenTestServiceProvider extends TestCase
 {
 
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
     }
 
-    public function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         m::close();

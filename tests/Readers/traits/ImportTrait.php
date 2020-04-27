@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Config;
+
 trait ImportTrait {
 
     /**
@@ -17,7 +20,7 @@ trait ImportTrait {
     /**
      * Setup
      */
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 

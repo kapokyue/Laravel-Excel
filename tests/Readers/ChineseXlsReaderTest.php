@@ -3,6 +3,8 @@
 use Mockery as m;
 use Maatwebsite\Excel\Readers\LaravelExcelReader;
 use Maatwebsite\Excel\Classes;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Config;
 
 class ChineseXlsReaderTest extends TestCase {
 
@@ -21,7 +23,7 @@ class ChineseXlsReaderTest extends TestCase {
     /**
      * Setup
      */
-    public function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
