@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "224112670a7a3bdaabaaf1fe2cd25cd2",
+    "content-hash": "b07e89bec15abe8419b7efca149689fc",
     "packages": [
         {
             "name": "brick/math",
@@ -364,12 +364,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kapokyue/PHPExcel.git",
-                "reference": "24c9725d7deb27993590e52a55db271a1d71e800"
+                "reference": "f9e29aff13386fe600eb3faeace9391daaadf2fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kapokyue/PHPExcel/zipball/24c9725d7deb27993590e52a55db271a1d71e800",
-                "reference": "24c9725d7deb27993590e52a55db271a1d71e800",
+                "url": "https://api.github.com/repos/kapokyue/PHPExcel/zipball/f9e29aff13386fe600eb3faeace9391daaadf2fa",
+                "reference": "f9e29aff13386fe600eb3faeace9391daaadf2fa",
                 "shasum": ""
             },
             "require": {
@@ -418,7 +418,7 @@
                 "xls",
                 "xlsx"
             ],
-            "time": "2020-05-06T04:06:04+00:00"
+            "time": "2020-05-06T12:03:16+00:00"
         },
         {
             "name": "laravel/framework",
