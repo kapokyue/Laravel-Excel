@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "kapokyue/laravel-excel",
   "description": "Supercharged Excel exports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -17,19 +17,9 @@
       "email": "patrick@maatwebsite.nl"
     }
   ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../PHPExcel"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/kapokyue/PHPExcel"
-    }
-  ],
   "require": {
     "php": "^7.2.5",
-    "phpoffice/phpexcel": "dev-feature/php74",
+    "kapokyue/phpexcel": "dev-feature/php74",
     "illuminate/cache": "^7.8.1",
     "illuminate/config": "^7.8.1",
     "illuminate/filesystem": "^7.8.1",
